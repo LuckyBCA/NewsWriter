@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartNews Writer – AI-Powered Content Generator</title>
+  <!-- Tailwind CSS (v3+) -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen bg-gray-100 font-sans antialiased">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <h1 class="text-2xl font-bold text-gray-900">SmartNews Writer</h1>
+      </div>
+      <nav class="hidden md:flex space-x-8 text-base font-medium">
+        <a href="#features" class="text-gray-600 hover:text-blue-700 transition-colors">Features</a>
+        <a href="#wordpress" class="text-gray-600 hover:text-blue-700 transition-colors">WordPress</a>
+        <a href="#pricing" class="text-gray-600 hover:text-blue-700 transition-colors">Pricing</a>
+        <a href="#contact" class="text-gray-600 hover:text-blue-700 transition-colors">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-br from-blue-700 to-indigo-600 text-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 flex flex-col md:flex-row items-center relative z-10">
+      <div class="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
+        <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-5 leading-tight">
+          AI-Powered News & Blog Writing, Simplified.
+        </h2>
+        <p class="text-lg md:text-xl text-blue-100 mb-8 max-w-xl mx-auto md:mx-0">
+          Generate high-quality, SEO-optimized news articles and blog posts on trending or custom topics effortlessly. Save time and supercharge your content strategy.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <a
+            href="#features"
+            class="inline-block px-8 py-3 rounded-lg text-lg font-semibold text-blue-700 bg-white hover:bg-gray-100 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+          >
+            Explore Features
+          </a>
+          <a
+            href="#wordpress"
+            class="inline-block px-8 py-3 rounded-lg text-lg font-semibold text-white bg-blue-500 hover:bg-blue-400 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+          >
+            WordPress Plugin
+          </a>
+        </div>
+      </div>
+      <div class="md:w-1/2 flex justify-center">
+        <img
+          src="https://placehold.co/600x400/white/a3a3a3/png?text=AI+Writing+Interface"
+          alt="AI Writing Interface Illustration"
+          class="w-full max-w-md lg:max-w-lg rounded-lg shadow-2xl"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-16 md:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-16 text-center">
+        <h3 class="text-3xl md:text-4xl font-bold text-gray-900">Core Features</h3>
+        <p class="mt-3 text-lg text-gray-600 max-w-2xl mx-auto">
+          Everything you need to automate and enhance your content production workflow.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8 lg:gap-12">
+        <!-- Feature 1 -->
+        <div class="p-8 bg-gray-50 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300 text-center group">
+          <div class="mb-5 text-blue-600 mx-auto w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full transform group-hover:scale-110 transition-transform">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </div>
+          <h4 class="text-xl font-semibold text-gray-800 mb-3">
+            Multi-AI Integration
+          </h4>
+          <p class="text-base text-gray-600 leading-relaxed">
+            Connect to OpenAI, Gemini, Deepseek, or LLMAPI seamlessly. Switch providers anytime to find the best fit.
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="p-8 bg-gray-50 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300 text-center group">
+          <div class="mb-5 text-blue-600 mx-auto w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full transform group-hover:scale-110 transition-transform">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+            </svg>
+          </div>
+          <h4 class="text-xl font-semibold text-gray-800 mb-3">
+            Trending Topic Detection
+          </h4>
+          <p class="text-base text-gray-600 leading-relaxed">
+            Automatically scan the latest trends from NewsAPI or Google Trends to keep your content relevant and timely.
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="p-8 bg-gray-50 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300 text-center group">
+          <div class="mb-5 text-blue-600 mx-auto w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full transform group-hover:scale-110 transition-transform">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+            </svg>
+          </div>
+          <h4 class="text-xl font-semibold text-gray-800 mb-3">
+            SEO & Internal Linking
+          </h4>
+          <p class="text-base text-gray-600 leading-relaxed">
+            Boost your visibility with automated internal links, FAQ schema generation, and integrated SEO meta descriptions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WordPress Integration Section -->
+  <section id="wordpress" class="py-16 md:py-24 bg-gradient-to-br from-gray-50 to-blue-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="text-center md:text-left">
+          <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Seamless WordPress Integration
+          </h3>
+          <p class="text-lg text-gray-700 mb-6">
+            Bring the power of SmartNews Writer directly into your WordPress dashboard. Generate and publish high-quality content without ever leaving your site.
+          </p>
+          <ul class="list-disc list-inside text-gray-600 space-y-2 mb-8 text-left inline-block">
+            <li>Generate articles from WordPress admin</li>
+            <li>Automatically publish or save as draft</li>
+            <li>Integrates with your existing categories & tags</li>
+            <li>Easy one-click installation</li>
+          </ul>
+          <p class="text-base text-gray-600 font-medium">
+            Available on the <a href="#" class="text-blue-600 hover:underline">WordPress Plugin Directory</a> and other leading marketplaces.
+          </p>
+        </div>
+        <div class="flex justify-center items-center">
+          <svg class="w-48 h-48 text-gray-700" role="img" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+            <title>WordPress Logo</title>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 0C4.477 0 0 4.477 0 10c0 5.523 4.477 10 10 10 5.523 0 10-4.477 10-10C20 4.477 15.523 0 10 0zM7.193 15.945l3.36-8.728 1.403 4.555 1.96-6.035L17.5 15.945H7.193zm5.068-6.77l-1.402 4.555h2.805l-1.403-4.555zm-4.28 4.555h-.87L2.5 6.273l4.587 4.587 1.403-4.555-2.11 6.86zm8.61-.001l1.403-4.554L15.413 10.86l4.587-4.587-4.608 9.673h-.87z"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Additional Features (Refined) -->
+  <section class="py-16 md:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="flex justify-center order-last md:order-first">
+          <img
+            src="https://placehold.co/600x400/e2e8f0/94a3b8/png?text=Focus+on+Growth"
+            alt="Focus on Growth Illustration"
+            class="rounded-lg shadow-xl w-full max-w-md lg:max-w-lg"
+          />
+        </div>
+        <div class="flex flex-col justify-center">
+          <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Save Time & Focus on Growth
+          </h3>
+          <p class="text-lg text-gray-700 mb-6">
+            SmartNews Writer handles the heavy lifting of content creation, freeing you up to focus on strategy, audience engagement, and scaling your business.
+          </p>
+          <ul class="list-none space-y-3">
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span class="text-gray-600">Efficient, high-quality article generation in minutes.</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span class="text-gray-600">Multi-language support for global reach (Pro Plan).</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span class="text-gray-600">Scheduled posting & team collaboration features (Pro Plan).</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-16 md:py-24 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h3 class="text-3xl md:text-4xl font-bold text-gray-900">Simple, Transparent Pricing</h3>
+        <p class="text-lg text-gray-600 mt-3 max-w-xl mx-auto">
+          Choose the plan that aligns with your content creation goals.
+        </p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <!-- Basic Plan -->
+        <div class="rounded-xl border border-gray-200 bg-white p-8 shadow-sm hover:shadow-lg transition-shadow flex flex-col">
+          <h4 class="text-xl font-semibold text-gray-800 mb-2">Basic</h4>
+          <p class="text-4xl font-bold text-gray-900 mb-4">$19<span class="text-base font-normal text-gray-500">/month</span></p>
+          <ul class="text-base text-gray-600 space-y-3 mb-8 flex-grow">
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>Unlimited articles</li>
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>Single AI Provider</li>
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>Basic formatting tools</li>
+            <li class="flex items-center text-gray-400"><svg class="w-5 h-5 text-gray-400 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>Trending Topic Detection</li>
+            <li class="flex items-center text-gray-400"><svg class="w-5 h-5 text-gray-400 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>WordPress Plugin Access</li>
+          </ul>
+          <a
+            href="#"
+            class="block w-full text-center bg-gray-100 text-blue-700 py-3 rounded-lg hover:bg-gray-200 transition-colors font-semibold"
+          >
+            Get Started
+          </a>
+        </div>
+
+        <!-- Pro Plan -->
+        <div class="rounded-xl border-2 border-blue-600 bg-white p-8 shadow-lg relative flex flex-col transform scale-105">
+          <span class="inline-block px-3 py-1 text-xs font-semibold tracking-wider uppercase bg-blue-600 text-white rounded-full absolute -top-3 left-1/2 transform -translate-x-1/2">
+            Most Popular
+          </span>
+          <h4 class="text-xl font-semibold text-gray-800 mb-2">Pro</h4>
+          <p class="text-4xl font-bold text-gray-900 mb-4">$49<span class="text-base font-normal text-gray-500">/month</span></p>
+          <ul class="text-base text-gray-600 space-y-3 mb-8 flex-grow">
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>Everything in Basic, plus:</li>
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>Multiple AI providers</li>
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>Trending topic detection</li>
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>Advanced SEO + linking</li>
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>WordPress Plugin Access</li>
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>Scheduled posting</li>
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>Collaboration access</li>
+          </ul>
+          <a
+            href="#"
+            class="block w-full text-center bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold"
+          >
+            Choose Pro
+          </a>
+        </div>
+
+        <!-- Enterprise Plan -->
+        <div class="rounded-xl border border-gray-200 bg-white p-8 shadow-sm hover:shadow-lg transition-shadow flex flex-col">
+          <h4 class="text-xl font-semibold text-gray-800 mb-2">Enterprise</h4>
+          <p class="text-4xl font-bold text-gray-900 mb-4">Custom</p>
+          <ul class="text-base text-gray-600 space-y-3 mb-8 flex-grow">
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>Everything in Pro, plus:</li>
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>Team-based workflow</li>
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>Deep analytics & audits</li>
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>Dedicated support + training</li>
+            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>API integration services</li>
+          </ul>
+          <a
+            href="#contact"
+            class="block w-full text-center bg-gray-100 text-blue-700 py-3 rounded-lg hover:bg-gray-200 transition-colors font-semibold"
+          >
+            Contact Sales
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 md:py-24 bg-gradient-to-r from-blue-700 to-indigo-600 text-white text-center">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-5">Ready to Revolutionize Your Content Workflow?</h2>
+      <p class="text-lg md:text-xl text-blue-100 mb-10">
+        Join thousands of publishers, bloggers, and marketing professionals who trust SmartNews Writer to create compelling content faster.
+      </p>
+      <a
+        href="#pricing"
+        class="inline-block px-10 py-4 bg-white text-blue-700 text-lg font-semibold rounded-lg hover:bg-gray-100 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+      >
+        View Pricing Plans
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 md:py-24 bg-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h4 class="text-3xl md:text-4xl font-bold text-gray-900">Get in Touch</h4>
+        <p class="text-lg text-gray-600 mt-3">
+          Have questions, feedback, or need a custom enterprise solution? We’re here to help.
+        </p>
+      </div>
+      <form class="space-y-6 bg-gray-50 p-8 rounded-lg shadow-sm border border-gray-200">
+        <div>
+          <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="e.g., Jane Doe"
+            class="w-full p-3 rounded-md border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-150 ease-in-out"
+            required
+          />
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Your Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="e.g., jane.doe@example.com"
+            class="w-full p-3 rounded-md border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-150 ease-in-out"
+            required
+          />
+        </div>
+        <div>
+          <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="How can we help you?"
+            class="w-full p-3 rounded-md border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-150 ease-in-out"
+            required
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="w-full bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+        >
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-400 py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="mb-2">&copy; <span id="year"></span> SmartNews Writer. All rights reserved.</p>
+      <p class="text-sm">Available on the WordPress Plugin Directory and other popular marketplaces.</p>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <script src="main.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+</html>

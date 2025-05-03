@@ -1,0 +1,25 @@
+/* 
+  Additional custom CSS for SmartNews Writer Landing Page 
+  Use this file to:
+  - Override specific Tailwind CSS classes if necessary.
+  - Add custom utility classes.
+  - Define styles for complex custom components.
+  - Load custom fonts.
+*/
+
+/* Example: override certain tailwind classes or add utility classes if needed. */
+body {
+  /* A custom web font could be loaded here via @import or linked in the HTML head. */
+  /* Example: font-family: 'YourCustomFont', sans-serif; */
+}
+
+.border-blue-600 {
+  border-color: #2563EB; /* Tailwind's 'blue-600' shade */
+}
+
+/* Example custom classes */
+.custom-gradient-from-blue {
+  background: linear-gradient(to right, #3b82f6 0%, #60a5fa 100%);
+}
+
+/* Add any specific custom styles below */
